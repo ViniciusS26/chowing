@@ -1,0 +1,17 @@
+# Ambiente local
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+__pycache__/
+*.pyc
+
+# Builds
+client/dist/
+server/.pytest_cache/
+
+# IDE
+.vscode/
+.DS_Store
