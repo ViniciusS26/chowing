@@ -2,7 +2,7 @@ import './Login.css'
 
 function Login(){
   return(
-  <div className="flex items-center min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+  <div className="flex items-center min-h-fullmt-6 flex-col justify-center px-6 py-12 lg:px-8">
   
   <div className=" mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
     <form action="#" method="POST" className="space-y-6">
