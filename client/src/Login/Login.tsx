@@ -8,14 +8,14 @@ function Login() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Captura os dados dos inputs diretamente
-    const formData = new FormData(e.currentTarget);
-    const email = formData.get('email');
-    const password = formData.get('password');
+      // Captura os dados dos inputs diretamente
+      const formData = new FormData(e.currentTarget);
+      const email = formData.get('email');
+      const password = formData.get('password');
 
-    console.log({ email, password });
+      console.log({ email, password });
 
-    navigate('/tasks');
+      navigate('/tasks');
   };
 
   return (
