@@ -30,8 +30,8 @@ function Login(){
         </div>
 
         <div>
-          <button type="submit" className="flex w-full border border-solid
-  justify-center rounded-md b px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Criar sua conta</button>
+          <a href='/Register' className="flex w-full border border-solid
+  justify-center rounded-md b px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Criar sua conta</a>
         </div>
       </form>
     </div>
