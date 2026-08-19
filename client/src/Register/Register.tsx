@@ -1,8 +1,9 @@
 import './Register.css'
-
 function Register(){
     return(
+       
         <div className="register-form mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+           
             <form action="#" method="POST" className="space-y-6">
                 <div>
                     <div className='flex'>
