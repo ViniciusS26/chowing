@@ -16,7 +16,7 @@ from sqlalchemy.pool import StaticPool
 
 from app.main import app
 from app.database import Base, get_db
-from app.auth import get_current_user
+from server.app.routers.auth import get_current_user
 
 # Configuração do SQLite em memória
 SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
