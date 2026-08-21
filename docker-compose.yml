@@ -40,7 +40,7 @@ services:
       APP_NAME: ${APP_NAME:-chowing}
       APP_ENV: ${APP_ENV:-development}
       DEBUG: ${DEBUG:-true}
-      DATABASE_URL: ${DATABASE_URL:-postgresql://postgres:postgres@db:5432/tasks_db}
+      DATABASE_URL: ${DATABASE_URL:-postgresql://postgres:postgres@db:5432/chowing_db}
       CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
     depends_on:
       - db
